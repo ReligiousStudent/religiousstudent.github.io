@@ -1,24 +1,137 @@
 body{
     background-color: black;
     padding: 0;
+   background-color: #FBFB94;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.papa{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 h1{
+    display: inline-block;
     text-align: center;
-    padding: 30px;
-    background-color: blue;
-    
+    background-image: url(images/Vatican-City-flag.png);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
 }
 
 .container{
-    color: white;
+    color:black;
+    position: relative;
     font-family: cursive;
     margin: 20;
-    background-color: red;
     padding-top: 20px;
     padding-bottom: 20px;
     height: 100vh;
     margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+h2, #currentchoice, #curchotwo, #curchothree{
+    text-align:left;
+    margin-left: 50px;
+    background-color: #FFFF00;
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+p{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.opening{
+    border: 3px solid black;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.centre{
+    text-align: center;
+}
+
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100px; /* Adjust width as needed */
+  background-color: yellow; /* Adjust color as needed */
+}
+
+.banner2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100px; /* Adjust width as needed */
+  background-color: yellow; /* Adjust color as needed */
+}
+
+
+nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav ul li {
+   display: inline-block;
+   position: relative;
+}
+
+nav ul li a {
+   display: block;
+   padding: 10px 20px;
+   text-decoration: none;
+   color: #333;
+   width: 300px;
+    margin-left: 25px
+}
+
+nav ul li:hover .dropdown {
+   display: block;
+}
+
+.dropdown {
+   display: none;
+   position: absolute;
+   background-color: #fff;
+   border: 1px solid #ccc;
+   padding: 10px;
+}
+
+.dropdown ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.dropdown ul li {
+   display: block;
+}
+
+.dropdown ul li a {
+   display: block;
+   padding: 5px;
+   text-decoration: none;
+   color: #666;
 }
     
     
+#sources{
+    background-color: #9B9B15;
+    color:white;
+    padding: 10px 10px;
+}
